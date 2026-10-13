@@ -1,0 +1,14 @@
+package lightsns:module@1.0.0;
+
+interface host {
+    call: func(operation: string, input: string) -> result<string, string>;
+}
+
+interface guest {
+    handle: func(event: string, input: string) -> result<string, string>;
+}
+
+world runtime {
+    import host;
+    export guest;
+}
