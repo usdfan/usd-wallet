@@ -1,0 +1,7 @@
+/target/
+/.build/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
