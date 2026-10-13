@@ -1,0 +1,15 @@
+{
+  "module": {
+    "id": "usd-wallet-pc",
+    "version": "1.0.2",
+    "display-name": "USD Wallet（电脑端）",
+    "summary": "将界面金额单位显示为 USD，并通过原生提现接口提交 USDT 钱包申请。"
+  },
+  "catalog": {
+    "module-type": "gadget",
+    "platform": "pc",
+    "author": "LightSNS USD Wallet",
+    "price": { "amount": "0", "price-type": "cny" }
+  },
+  "runtime": { "component": "backend/module.wasm" }
+}

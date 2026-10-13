@@ -1,0 +1,3 @@
+module-id = "usd-wallet-pc"
+frontend-only = false
+cargo-package = "usd-wallet-pc"
